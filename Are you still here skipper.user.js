@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Are you still here skipper
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
-// @author       You
+// @author       notusedusername
 // @match        https://music.youtube.com/*
 // @require http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        none
