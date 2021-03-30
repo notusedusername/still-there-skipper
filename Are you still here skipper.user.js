@@ -12,10 +12,12 @@
 (function() {
     'use strict';
     console.log("ARE YOU STILL THERE SKIPPER v0.1 started...")
+    let timestamp;
     setInterval(function(){
         let $popup = $("ytmusic-you-there-renderer yt-button-renderer:visible");
         if($popup.length === 1) {
-            console.log("Got your back, bro!");
+            timestamp = new Date();
+            console.log("[" + timestamp.getHours() + ":" + timestamp.getMinutes() + "] Got your back, bro!");
             $popup.click();
         }
     }, 3000);
