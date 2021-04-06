@@ -25,6 +25,7 @@
             timestamp = new Date();
             console.log("[" + timestamp.getHours() + ":" + timestamp.getMinutes() + "] Got your back, bro!");
             $popupButton.click();
+            $popupButton.closest("ytmusic-you-there-renderer").remove();
         }
     }
 })();
